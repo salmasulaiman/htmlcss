@@ -1,0 +1,40 @@
+h1{
+    color: blue;
+    text-align: left;
+    font-size:xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+
+    }
+h2{
+    color:#334499;
+    text-align: right;
+    font-size: 150px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    }
+h3{
+    color:#04c350;
+    text-align: center;
+    font-size: 150%;
+    font-family: cursive;
+    font-style: normal;
+    }
+h4{
+    color: blue;
+    text-align:justify;
+    }
+p{
+    background-color: rgb(205, 218, 178);
+    border-style:double;
+   
+}
+p.ex{
+    margin-top: 50px;
+   margin-bottom:50px ;
+   margin-left: 100px;
+   margin-right: 100px;
+}
+
+                            
+    

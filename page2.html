@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+    <center><b><h1>Registration Form</h1></b></center>
+    <table align="center">
+        <tr>
+            <td><label>Name:</label></td>
+            <td><input type="text" id="t1" name="text1" required></td>
+        </tr>
+        <tr>
+            <td><label>Password:</label></td>
+            <td><input type="password"></td>
+        </tr>
+        <tr>
+            <td><label>Address:</label></td>
+            <td><textarea></textarea></td>
+        </tr>
+        <tr>
+            <td><label>phone:</label></td>
+            <td><input type="tel" pattern="\d{10}"></td>
+        </tr>
+        <tr>
+            <td><label>Age:</label></td>
+            <td><input type="number" min="20" max="50"></td>
+        </tr>
+        <tr>
+            <td><label>Email:</label></td>
+            <td><input type="email"></td>
+        </tr>
+        <tr>
+            <td><label>Date:</label></td>
+            <td><input type="date"></td>
+        </tr>
+        <tr>
+            <td><label>Photo:</label></td>
+            <td><input type="file"></td>
+        </tr>
+        <tr>
+            <td><label>Gender:</label></td>
+            <td><input type="radio" value="male" name="rb">Male<input type="radio" value="female" name="rb">female</td>
+        </tr>
+        <tr>
+            <td><label>Qualification:</label></td>
+            <td><input type="checkbox" value="SSLC" name="cb1">SSLC<br>
+                <input type="checkbox" value="plustwo" name="cb2">plustwo<br>
+                <input type="checkbox" value="btech" name="cb3">BTech</td>
+        </tr>
+        <tr>
+            <td><label>State</label></td>
+            <td>
+                <select name="st">
+                    <option disabled selected>--select--</option>
+                    <option value="kerala">kerala</option>
+                    <option value="karnataka">karnataka</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="register"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="reset" value="Reset"></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
