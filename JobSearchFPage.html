@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Finder</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .card-title{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: medium;
+            
+        
+        }
+        .card-text{
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+<body>
+     <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light" > -->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style=" background-color:black;">
+
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><b style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size: 20px;">Job Finder</b></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+    
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home.</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Login</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                             Registration
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color:bisque;">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">About Us</a>
+                        </li>
+    
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+            
+        </nav>
+        <div class="container-fluid mt-3">
+            <h2>Carousel Example</h2>
+        </div>
+        <div id="demo" class="carousel slide carousel-dark" data-bs-carousel="carousel" data-bs-ride="carousel" data-intervel="50">
+            <div class="carousel-inner">
+                <div class="carousel-item active" style="height:400px;">
+                    <img src="jb1.jpg" alt="haiii" class="d-block w-100" />
+                    
+                </div>
+                <div class="carousel-item" style="height:400px;">
+                    <img src="jb2.jpg" alt="hlo" class="d-block w-100" />
+                   
+                </div>
+                <div class="carousel-item" style="height:400px;">
+                    <img src="js3.png" alt="hi" class="d-block w-100" />
+                    <div class="carousel-caption">
+                        <h3 style="color: yellow; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;font-weight: lighter;">Don't wait for the right oppurtunity,CREATE IT....</h3>
+                    </div>
+                    
+                </div>
+</div>
+            <button type="button" class="carousel-control-prev" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+             <button type="button" class="carousel-control-next" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+
+            </div>
+            <br>
+            </div>
+            <br>
+                  <br>
+            <div class="card-deck">
+                <div class="card bg-light mb-3"  style="max-width: 350px;">
+                  <img class="card-img-top" src="logo1.webp" alt="Card image cap" height="200" width="100">
+                  <div class="card-body">
+                    <h5 class="card-title"><b>Asp.Net Core Developer</b></h5>
+                    <p class="card-text">Software Developer (.NET Core) Reports To Company Overview specializes in creating innovative technology solutions, which are actively disrupting the marketplace.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <a href="#" class="btn btn-primary" >View more</a>
+                  </div>
+                </div>
+                <div class="card bg-light mb-3" style="max-width: 350px;">
+                  <img class="card-img-top" src="logo4.jpg" alt="Card image cap" height="200" width="100">
+                  <div class="card-body">
+                    <h5 class="card-title"><b>Software Engineer - Senior</b></h5>
+                    <p class="card-text">Google is seeking creative, high-energy and driven software engineers with hands-on development skills to work on a variety of meaningful projects.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <a href="#" class="btn btn-primary" >View more</a>
+                  </div>
+                </div>
+                <div class="card bg-light mb-3" style="max-width: 350px;">
+                  <img class="card-img-top" src="logo3.webp" alt="Card image cap" height="200" width="100">
+                  <div class="card-body">
+                    <h5 class="card-title"><b>Java Software Engineer</b></h5>
+                    <p class="card-text">Role Description Role Proficiency: • The ideal candidate should have strong experience in Java development with a focus on SpringBoot framework.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <a href="#" class="btn btn-primary" >View more</a>
+                  </div>
+                </div>
+                <div class="card bg-light mb-3" style="max-width: 350px;">
+                    <img class="card-img-top" src="logo2.png" alt="Card image cap" height="200" width="100">
+                    <div class="card-body">
+                      <h5 class="card-title"><b>Senior Dotnet Developer</b></h5>
+                      <p class="card-text">4 to 6 years of experience in .NET Core development. ∙Strong proficiency in MSSQL development and server management tools. ∙Good knowledge of Azure Cloud Platforms</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      <a href="#" class="btn btn-primary" >View more</a>
+                    </div>
+                  </div>
+                  </div>
+                  <br>
+                  <br>
+                  <div class="card-deck">
+                  <div class="card bg-light mb-3" style="max-width: 350px;">
+                    <img class="card-img-top" src="logo5.png" alt="Card image cap" height="200" width="100">
+                    <div class="card-body">
+                      <h5 class="card-title"><b>Software Developer</b></h5>
+                      <p class="card-text">Role Description Role Proficiency:Analyze users needs and then design and develop software to meet those needs. Recommend software upgrades for customers existing programs and systems.</p>
+                      <a href="#" class="btn btn-primary" >View more</a>
+                    </div>
+                  </div>
+                  <div class="card bg-light mb-3" style="max-width: 350px;">
+                    <img class="card-img-top" src="logo6.png" alt="Card image cap" height="200" width="100">
+                    <div class="card-body">
+                      <h5 class="card-title"><b>Python Developer</b></h5>
+                      <p class="card-text">our mission is to make hiring fairer for all applicants. We combine I/O Psychology with AI to create an application screening process that gives an opportunity to all candidates to undergo a structured interview.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      <a href="#" class="btn btn-primary" >View more</a>
+                    </div>
+                  </div>
+                  <div class="card bg-light mb-3" style="max-width: 350px;">
+                    <img class="card-img-top" src="logo7.jpg" alt="Card image cap" height="200" width="100">
+                    <div class="card-body">
+                      <h5 class="card-title"><b>Web Designer</b></h5>
+                      <p class="card-text">PREFERRED SKILLS : • 1+ years of experience in Web / UI Designing and Development • Must have skills in developing Rich UI based web application using HTML, AJAX, JavaScript, jQuery etc </p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      <a href="#" class="btn btn-primary" >View more</a>
+                    </div>
+                  </div>
+                  <div class="card bg-light mb-3" style="max-width: 350px;">
+                    <img class="card-img-top" src="logo8.png" alt="Card image cap" height="200" width="100">
+                    <div class="card-body">
+                      <h5 class="card-title"><b>Full Stack Developer</b></h5>
+                      <p class="card-text">We are seeking an experienced Fullstack Developer with expertise in Angular and .NET/Node.js to help us build and maintain scalable web applications. The ideal candidate will be proficient in both front-end and back-end development.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      <a href="#" class="btn btn-primary" >View more</a>
+                    </div>
+                  </div>
+                  </div>
+                  <br>
+                  <br>
+                  <div class="card-deck">
+                  <div class="card bg-light mb-3" style="max-width: 350px;">
+                    <img class="card-img-top" src="logo9.png" alt="Card image cap" height="200" width="100">
+                    <div class="card-body">
+                      <h5 class="card-title"><b>Python Developer</b></h5>
+                      <p class="card-text">FULL TIME Want to learn more about python and work on exciting projects in a team based environment? We offers superb career growth opportunities, great compensation and benefits.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      <a href="#" class="btn btn-primary" >View more</a>
+                    </div>
+                  </div>
+                  <div class="card bg-light mb-3" style="max-width: 350px;">
+                    <img class="card-img-top" src="logo10.jpg" alt="Card image cap" height="200" width="100">
+                    <div class="card-body">
+                      <h5 class="card-title"><b>Junior Software Engineer</b></h5>
+                      <p class="card-text">TWe are looking for a software developer who is eager to embrace the latest technologies and learn new trends and techniques to help create innovative solutions.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      <a href="#" class="btn btn-primary" >View more</a>
+                    </div>
+                  </div>
+              </div>
+</body>
+</html>
